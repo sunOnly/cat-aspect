@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info">
+    <appender name="CatAppender" class="net.plcloud.cat.log.CatLogbackAppender"></appender>
+    <root level="info">
+        <appender-ref ref="CatAppender"/>
+    </root>
+</Configuration>
